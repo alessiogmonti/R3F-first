@@ -10,8 +10,8 @@ import * as THREE from 'three'
 
 const lightMaterial = new THREE.MeshStandardMaterial({
    color: 'rgba(20,100,220,1)',
-   metalness: 1.0,
-   roughness: 0.0,
+   metalness: 0.9,
+   roughness: 0.1,
   //  emissive: 'rgba(10,15,75,1)',
   //  emissiveIntensity: 0.2,
    flatShading: true,
@@ -23,18 +23,18 @@ const lightMaterial = new THREE.MeshStandardMaterial({
 
 const Head_Material = new THREE.MeshStandardMaterial({
   color: 'rgba(5,90,20,1)',
-  metalness: 0.9,
+  metalness: 0.8,
   roughness: 0.1,
   opacity: 1,
-  shininess: 1,
+  shininess: 0.9,
   transparent: false,
   side: THREE.DoubleSide,
 })  
 
 const TStrut_Material = new THREE.MeshStandardMaterial({
   color: 'rgba(5,90,20,1)',
-  metalness: 1,
-  roughness: 0,
+  metalness: 0.9,
+  roughness: 0.2,
   opacity: 1,
   shininess: 1,
   transparent: false,
